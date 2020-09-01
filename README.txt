@@ -30,7 +30,7 @@ If gmail is not working, try creating an app specific password for your Google G
 in this application instead for gmail.
 
 
-Error:
+If an Error occurs when installing Pillow:
 Previous Projects: If you have an error installing Pillow using Python 3.x:
 
 To use Pillow with Python 3.8.x - upgrade pip to the most recent version (20.x)
@@ -44,3 +44,8 @@ easy_install -U pip
 
 Then, install the requirements for the project:
 pip install -r requirements.txt
+
+Then migrate:
+python manage.py migrate
+Then runserver:
+python manage.py runserver
