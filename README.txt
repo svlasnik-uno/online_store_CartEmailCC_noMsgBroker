@@ -1,3 +1,4 @@
+Test
 This version is updated for Django 4.0.2 and Python 3.9
 This application was created as a sample by Dr. George Royce for the ISQA Web Application Development Course
 To use this application:
